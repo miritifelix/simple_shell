@@ -17,6 +17,7 @@ int hsh(info_t *info, char **av)
 		clear_info(info);
 		if (interactive(info))
 			_puts("$ ");
+			
 		_eputchar(BUF_FLUSH);
 		r = get_input(info);
 		if (r != -1)
@@ -25,6 +26,7 @@ int hsh(info_t *info, char **av)
 			builtin_ret = find_builtin(info);
 			if (builtin_ret == -1)
 				find_cmd(info);
+
 		}
 		else if (interactive(info))
 			_putchar('\n');
