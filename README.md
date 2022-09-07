@@ -1,2 +1,2 @@
- simple UNIX command interpreter
+ simple
 
