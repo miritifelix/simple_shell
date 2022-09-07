@@ -78,6 +78,7 @@ size_t print_list(const list_t *h)
 	return (i);
 }
 
+
 /**
  * node_starts_with - returns node whose string starts with prefix
  * @node: pointer to list head
@@ -120,3 +121,4 @@ ssize_t get_node_index(list_t *head, list_t *node)
 	}
 	return (-1);
 }
+
