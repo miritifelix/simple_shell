@@ -1,2 +1,2 @@
- simple
+ simple shell interpreter
 
